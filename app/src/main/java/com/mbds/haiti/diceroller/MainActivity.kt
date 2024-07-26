@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val diceRoll2 = dice2.roll()
 
         // Update the screen with the dice roll
-        val resultTextView1: TextView = findViewById(R.id.textView)
+        val resultTextView1: TextView = findViewById(R.id.textView1)
         resultTextView1.text = diceRoll1.toString()
 
         // Update the screen with the dice roll
